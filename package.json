@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jon-edward/py_editor_toy/issues"
   },
-  "homepage": "https://github.com/jon-edward/py_editor_toy#readme"
+  "homepage": "https://github.com/jon-edward/py_editor_toy#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2"
+  }
 }
