@@ -1,0 +1,22 @@
+{
+  "name": "py_editor_toy",
+  "version": "1.0.0",
+  "description": "A Python editor in the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jon-edward/py_editor_toy.git"
+  },
+  "keywords": [
+    "Python"
+  ],
+  "author": "jon-edward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jon-edward/py_editor_toy/issues"
+  },
+  "homepage": "https://github.com/jon-edward/py_editor_toy#readme"
+}
