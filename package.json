@@ -2,11 +2,12 @@
   "name": "py_editor_toy",
   "version": "1.0.0",
   "description": "A Python editor in the browser.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=development",
-    "build-production": "webpack --mode=production"
+    "build-production": "webpack --mode=production",
+    "serve": "http-server -c-1 ./dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
   "homepage": "https://github.com/jon-edward/py_editor_toy#readme",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "http-server": "^14.1.1",
+    "pyodide": "^0.23.2",
     "ts-loader": "^9.4.3",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1"
